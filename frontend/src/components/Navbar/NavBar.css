@@ -1,0 +1,39 @@
+#navbar {
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo, links, and right-side items */
+    align-items: center; /* Vertically centers the elements */
+    padding: 10px 20px; /* Adds some padding to the navbar */
+  }
+  
+  #logo {
+    height: 80px; /* Adjust size of the logo */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between the links */
+    justify-content: center;
+    flex-grow: 1; /* Ensures nav-links take up available space */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  #navbar-rightside {
+    display: flex;
+    gap: 10px; /* Space between the right-side items */
+    align-items: center;
+  }
+  
+  #nav-globe-logo {
+    font-size: 24px; /* Adjust size of the globe icon */
+  }
+  
+  /* Optional: Add some hover effects */
+  .nav-links a:hover, #navbar-rightside a:hover {
+    color: #FF5A5F; /* Airbnb red */
+  }
+  
